@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: brown;
+}
+h3{
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: brown;
+}
+body{
+    background-color: rgb(26, 23, 23);
+    background-size: cover;
+}
+img{
+    width: 200px;
+    position: absolute;
+    right: 160px;
+    top: 50px;
+}
+a{
+    color: rgba(6, 52, 255, 0.973);
+    text-decoration: none;
+}
+strong{
+    color: white;
+}
+li{
+    color: white;
+}
+p{
+    color: white;
+}
+.btn_register {
+    position: absolute;
+    right: 10px;
+    background-color: rgb(243, 7, 7);
+    color: azure;
+    width: 150px;
+    height: 20px;
+    font-size: large;
+}
