@@ -1,41 +1,52 @@
+@font-face {
+    font-family: 'Font_1';
+    /* Назва шрифту (використовується в стилях) */
+    src: url(/font/BebasNeue-Regular.ttf)
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Oswald:wght@200..700&display=swap');
+body{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    color: black;
+}
 h1{
     text-align: center;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: brown;
-}
-h3{
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: brown;
-}
-body{
-    background-color: rgb(26, 23, 23);
-    background-size: cover;
+    font-family: 'Oswald';
+    font-size: 50px;
+    margin-left: 100px;
 }
 img{
+    float: right;
+    margin: 20px;
     width: 200px;
-    position: absolute;
-    right: 160px;
-    top: 50px;
+    height: auto;
 }
 a{
     color: rgba(6, 52, 255, 0.973);
     text-decoration: none;
 }
-strong{
-    color: white;
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald';
 }
-li{
-    color: white;
-}
-p{
-    color: white;
+.h1_1 {
+    margin-left: 230px;
+    text-align: center;
+    font-size: 30px;
 }
 .btn_register {
     position: absolute;
     right: 10px;
-    background-color: rgb(243, 7, 7);
-    color: azure;
-    width: 150px;
+    color: rgb(0, 0, 0);
+    width: 15px;
     height: 20px;
-    font-size: large;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+.a1{
+    width: 60px;
+    margin-top: 0px;
 }
